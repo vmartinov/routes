@@ -35,6 +35,9 @@ http://localhost:64971/LISWebService/api/address/ValidateStandardAddress?Address
 ocrr67axbw.database.windows.net
 
 http://vcobinetdv04/LISWebService/api/address/GetAddress?locationAddressId=86977
+http://lisaddress.bellevuewa.gov/api/address/GetAddress?locationAddressId=86977
 
 http://vcobinetdv04/SCSWcf/SCSWebService.svc
 https://taxportal.bellevuewa.gov/SCSWebService.svc
+
+"c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\sgen.exe" /force /assembly:"$(TargetPath)"
